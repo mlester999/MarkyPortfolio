@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+    <a href="#" class="logo">Portfolio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+</header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Mark Lester Acak.</span></h2>
+            <h3>A Professional Video Editor</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="pics/portrait1.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am I?</h3>
+                <h2>I'm <b> Mark Lester Acak</b>, a Professional
+                Video Editor</h2>
+                <p>Good Day! My name is Mark Lester T. Acak. But you can call me Marky.
+                    I’d like to take a couple of minutes to tell you why hiring me as your Video Editor
+                    will benefit you. I’m very good at academics and I’m always present in every class. I’m very happy
+                    in what am I doing. I am very passionate at my position and I’d like to take this to you.
+                    I’m also extremely motivated in work and in my personal life because of my family and my girlfriend.
+                    I'm versatile in every aspects and areas of work. I’m not just good at doing this but also
+                    I want to learn new things while working. </p><br>
+                    <p>Currently, I'm looking for a job that suits my passion and skills. I want to
+                    become a part of the projects that you want to be started or on-going. I'm a team player and
+                    always want to work with people in the surroundings. I loved to share my knowledge to others
+                    and of course I want to learn from them also. </p> <br>
+                    <p> So if you’re looking for a goal-oriented, multi-tasking, and self-motivated,
+                    I am the one that you’re looking for. I would be pleased to hear from you.
+                    I really appreciate your taking a minute to see me. Thank you and God Bless. </p>
+                    <div class="heading bottom">
+                        <a href="pics/resume.docx" target="_blank" class="btn round">Download CV</a>
+                        <div class="bt">
+                            <b>Name: </b> Mark Lester Acak <br>
+                            <b>Age: </b> 19
+                        </div>
+                        <div class="bt">
+                            <b>Email:</b> mister6virgo@gmail.com <br>
+                            <b>Location:</b> Cabuyao, Laguna
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Services</h2>
+            <p>Services I Offered to my Clients</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="pics/adobePremierePro.png" width="100" height="100" alt="">
+                <h3>Video Editing</h3>
+                <p><br>I'm using Adobe Premiere Pro as a tool to edit video clips.
+                    Adobe Premiere Pro is a timeline-based video editing software
+                    application developed by Adobe Inc. </p>
+            </div>
+            <div class="servicesBx">
+                <img src="pics/videoGraphy.png" width="100" height="100" alt="">
+                <h3>Videography</h3>
+                <p><br>
+                    I'm using my smartphone as a tool to capture video clips.
+                    Videography refers to the process of capturing moving images
+                    on electronic media and even streaming media.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="pics/adobePhotoshop.png" width="100" height="100" alt="">
+                <h3>Photo Editing</h3>
+                <p><br>I'm using Adobe Photoshop as a tool to edit photo
+                    and enhanced them. Adobe Photoshop is a raster graphics editor developed
+                    and published by Adobe Inc.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="pics/photoGraphy.png" width="100" height="100" alt="">
+                <h3>Photography</h3>
+                <p><br>I'm using my smartphone as a tool to capture images.
+                    Photography is the art of capturing light with a camera,
+                    usually via a digital sensor or film, to create an image. </p>
+            </div>
+            <div class="servicesBx">
+                <img src="pics/soundEngineering.png" width="100" height="100" alt="">
+                <h3>Sound Engineering</h3>
+                <p><br>I also enhancing the audio of the video and remove those background
+                noises to improve the quality of the sounds. Also by balancing and mixing 
+                the audio can attract the viewers and be satisfied.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="pics/davinciResolve.png" width="100" height="100" alt="">
+                <h3>Color Grading & Correction</h3>
+                <p><br>
+                    I color grade video clips in Davinci Resolve and it is very awesome.
+                    DaVinci Resolve is a color correction and non-linear video editing
+                    application, originally developed by Da Vinci Systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Latest Work</h2>
+            <p>Showcasing some of my <b>Projects</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://www.youtube.com/watch?v=IbQ_7oiNPLw" target="_blank">
+                     <img src="pics/gigawareKeyboard.jpg" alt="">
+                     <p>GIGAWARE K880 MECHANICAL GAMING KEYBOARD | B-ROLL</p>
+            </a>
+        </div>
+        <div class="workBx">
+            <a href="https://www.youtube.com/watch?v=D8S62Kr6swo" target="_blank">
+                <img src="pics/intentionsDance.jpg" alt="">
+                <p>Niana Guerrero (Intentions) Dance Cover with Neon Effects</p>
+            </a>
+        </div>
+        <div class="workBx">
+            <a href="https://www.youtube.com/watch?v=2MlcrfwrDmo" target="_blank">
+                <img src="pics/unboxingMic.jpg" alt="">
+                <p>BM-800 CONDENSER MICROPHONE UNBOXING AND SETUP || GRABE ANG MURA PERO QUALITY!!</p>
+            </a>
+        </div>
+        <div class="workBx">
+            <a href="https://www.youtube.com/watch?v=moIGiyKypY4" target="_blank">
+                <img src="pics/heatherCover.jpg" alt="">
+                <p>Heather // Conan Gray (Cover) #SongRequest</p>
+            </a>
+        </div>
+        <div class="workBx">
+            <a href="https://www.youtube.com/watch?v=F7MoQpcGYDw" target="_blank">
+                <img src="pics/robinsonGalleria.jpg" alt="">
+                <p>BIRTHDAY CELEBRATION VLOG SA ROBINSON GALLERIA! || NILIBRE KAMI SA MANG INASAL NG PAGKAIN 🍗🥤</p>
+            </a>
+        </div>
+        <div class="workBx">
+            <a href="https://www.youtube.com/watch?v=ibrVE_srW7M&t=3s" target="_blank">
+                <img src="pics/unboxingAestheria.jpg" alt="">
+                <p>REVIEW OF AESTHERIA BRAND INFLUENCER PACKAGE (BAGAY SA MGA DALAGITA DYAN)</p>
+            </a>
+        </div>
+        <div class="heading">
+            <a href="https://www.youtube.com/channel/UCWWOheTTZbYE88B_ubmmkqw" target="_blank" class="btn" style="color: #fff;">View All My Videos</a>
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout for HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my clients think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <img src="pics/mitchay1.jpeg">
+                <p>He was <b>great</b>, followed all my tasks I command and <b>very easy to work with.</b>
+                    I would recommend him to to all clients out their to engaged with him.</p>
+                <h3>-Mitchel Tapang<br>Content Creator</h3>
+            </div> 
+            <div class="testimonialBx">
+                <img src="pics/michael1.jpg">
+                <p><b>Outstanding job, great communication and very easy to work with.</b> Don't hesitate to hire him. Highly recommended!</p>
+                    <h3>-Den Michael Nielles<br>Basketball Player</h3>
+            </div>
+            <div class="testimonialBx">
+                <img src="pics/abby1.jpg">
+                <p>Mark is a very excellent professional and did a great job in a timely manner. Would recommend this because he is <b>Professional</b> and a <b>Team Player</b>.</p>
+                    <h3>-Chruz Chuave Flores<br>Content Creator</h3>
+            </div>
+            <div class="testimonialBx">
+                <img src="pics/rogie1.jpg">
+                <p>He was very <b>quick</b> and <b>responsive</b> to our project and  had a great experience. Mark's <b>quality of work</b> is excellent, he communicates very well. I am very happy!</p>
+                    <h3>-Jhon Rogie Aldueza<br>Software Developer</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Should you need any further information, please do not
+                    hesitate to contact me. I look forward to a successful working
+                    relationship in the future. Thank you and God Bless.
+                </p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <address>Laguna, Philippines <br> Mamatid, Cabuyao <br> Mabuhay City </address>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>0915-1392-944</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>mister6virgo@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect </h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/mlester999/" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/mlester999" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/_mrklstr/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.youtube.com/c/MarkTheGreat/featured" target="_blank">
+                                <i class="fa fa-youtube-play"></i>
+                            </a>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+                <div class="formBx">
+                    <form>
+                        <h3>Message Me</h3>
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                        <textarea name="" id="" rows="6" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send Message" name="" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2020, markyboy.netlify.app, All rights reserved</p>
+    </footer>
+</body>
+</html>
